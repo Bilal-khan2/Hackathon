@@ -1,0 +1,101 @@
+/* universal CSS*/
+button{
+    cursor: pointer;
+}
+*{
+    font-family: monospace;
+}
+body{
+    background-color: gray;
+}
+/* Login CSS */
+form.loginForm{
+    border: 2px solid black;
+    width: 300px;
+    margin: 200px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 4px 6px #00000036;
+}
+label.log{
+    display: inline-block;
+    width: 100px;
+}
+
+
+
+/* Home Css */
+div.Header{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    border: 2px solid red;
+    align-items: center;
+    background-color: black;
+}
+/* Attendance CSS */
+div.search{
+    width: fit-content;
+    margin: auto;
+}
+div.display{
+    border: 2px solid black;
+    width :250px;
+    margin: 20px auto;
+    background-color:#8080801a;
+    box-shadow: 0px 0px 4px 6px #00000036;
+    padding: 20px;
+}
+div.image{
+    /* border: 1px solid red; */
+    margin: 3px auto;
+    width: 120px;
+}
+.name {
+    margin-top: 10px;
+}
+div.hodor{
+    display: flex;
+  width: fit-content;
+  margin: auto;
+  gap: 10px;
+}
+.alert{
+    width: 20%;
+    /* background-color: green; */
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    font-weight: bold;
+    font-size: large;
+    justify-content: center;
+}
+
+/* Courses CSS */
+form.course{
+    border: 1px solid rgb(1, 1, 1);
+    width: fit-content;
+    padding: 10px;
+    margin: 30px auto;
+    box-shadow: 0px 0px 4px 6px #00000036;
+}
+select {
+    width: 76px;
+}
+
+label.cou {
+    display: inline-block;
+    width: 150px;
+}
+/* Registration CSS */
+form.register{
+    border: 2px solid black;
+    width: 290px;
+    padding: 10px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 4px 6px #00000036;
+}
+
+label.reg {
+    display: inline-block;
+    width: 120px;
+}
